@@ -1,0 +1,56 @@
+{
+  "name": "ease-life",
+  "version": "1.0.0",
+  "description": "哥的幸福生活全靠你啦",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "monorepo",
+    "web components",
+    "pnpm",
+    "storybook",
+    "changeset"
+  ],
+  "author": "zqc",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@changesets/cli": "2.27.5",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
+    "@ease-life/eslint-config": "workspace:*",
+    "@ease-life/stylelint-config": "workspace:*",
+    "@ease-life/typescript-config": "workspace:*",
+    "eslint": "9.4.0",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "postcss-html": "1.7.0",
+    "stylelint": "16.6.1",
+    "stylelint-config-sass-guidelines": "11.1.0",
+    "stylelint-config-standard": "36.0.0",
+    "stylelint-config-standard-scss": "13.1.0",
+    "stylelint-order": "6.0.4",
+    "stylelint-scss": "6.3.1",
+    "vite": "^5.2.13"
+  },
+  "engines": {
+    "node": ">= 18.20.3",
+    "pnpm": ">= 9.3.0"
+  },
+  "lint-staged": {
+    "*.{js,vue,ts}": [
+      "pnpm exec eslint --fix"
+    ],
+    "*.{css,scss}": [
+      "pnpm exec stylelint --fix"
+    ]
+  }
+}

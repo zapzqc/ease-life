@@ -1,0 +1,17 @@
+# 告诉编辑器这是最顶层的（不要再向上找了）
+root = true
+
+# All Files
+[*]
+charset = utf-8                  # 设置编码为 utf-8
+indent_style = space             # 2 个空格的缩进
+indent_size = 2
+end_of_line = lf                 # Unix 风格的换行
+insert_final_newline = true      # 始终在文件末尾插入一个新行
+trim_trailing_whitespace = true  # 删除行尾空格
+max_line_length = 200            # 单行最大宽度
+
+# Markdown 文件
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false

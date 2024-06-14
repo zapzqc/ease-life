@@ -1,0 +1,7 @@
+{
+  "extends": "@ease-life/typescript-config/base.json",
+  "include": [
+    "packages/**/*.ts",
+    "apps/**/*.ts"
+  ],
+}

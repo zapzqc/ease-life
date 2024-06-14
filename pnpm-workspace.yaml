@@ -1,0 +1,5 @@
+packages:
+  # 组件、命令行、类库等，匹配 packages 目录下（任意文件夹下）的所有模块
+  - 'packages/**'
+  # 应用程序（如 Storybook、VitePress），匹配 apps 直接子文件夹下的所有模块
+  - 'apps/*'

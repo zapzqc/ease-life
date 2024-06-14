@@ -1,0 +1,15 @@
+{
+  "name": "@ease-life/stylelint-config",
+  "version": "1.0.0",
+  "description": "Custom stylelint",
+  "main": "index.js",
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "zqc",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
+}

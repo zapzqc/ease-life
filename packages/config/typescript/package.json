@@ -1,0 +1,13 @@
+{
+  "name": "@ease-life/typescript-config",
+  "version": "1.0.0",
+  "description": "Custom tsconfig",
+  "keywords": [
+    "tsconfig"
+  ],
+  "author": "zqc",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

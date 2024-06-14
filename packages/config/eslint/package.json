@@ -1,0 +1,27 @@
+{
+  "name": "@ease-life/eslint-config",
+  "version": "1.0.0",
+  "description": "Custom airbnb eslint config with ESLint v9",
+  "main": "index.js",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "zqc",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@eslint/compat": "1.1.0",
+    "@eslint/eslintrc": "3.1.0",
+    "@eslint/js": "9.4.0",
+    "eslint": "9.4.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "18.0.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.1",
+    "globals": "15.4.0",
+    "typescript-eslint": "7.13.0"
+  }
+}
