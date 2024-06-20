@@ -12,9 +12,11 @@ export default {
     // 指定排序，比如声明的块内(插件包)属性的顺序
     'stylelint-order',
   ],
+  customSyntax: 'postcss-html',
   rules: {
     // 允许的最大嵌套深度为 3
     'max-nesting-depth': 3,
+    'color-named': null,
     // 屏蔽一些scss等语法检查
     'at-rule-no-unknown': [
       true,
