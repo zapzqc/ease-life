@@ -1,6 +1,6 @@
 {
   "name": "ease-life",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "哥的幸福生活全靠你啦",
   "scripts": {
     "dev": "vite --open",
